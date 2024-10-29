@@ -1,0 +1,123 @@
+body{
+    /* background-color: black; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxveNkRPRg5HHTbDTJUZyP4vFtVgkAy0--gw&s"); */
+    background-image: url("https://jdsportsblog.s3.amazonaws.com/wp-content/uploads/2024/08/Blog_Header_1920x840-1920x840.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
+}
+
+/* ! Header code */
+
+header{
+    display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;  
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+header> nav > ul{
+    margin: 10px;
+    padding: 20px;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+header > nav> ul> li{
+    
+    display: inline-block;
+
+}
+
+header > nav > ul > li> a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px dotted white;
+
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    grid-column: 5/6;
+    background-color: white;
+    
+    
+}
+
+/* !Containers image code */
+
+.container{
+    margin: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 2px solid wheat;
+}
+
+.container img:hover{
+    width: 35%;
+}
+/* !end of container image code */
+
+/* ! footer code */
+
+footer{
+    display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+footer> nav > ul{
+    margin: 10px;
+    padding: 20px;
+    /* background-color: white; */
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+
+footer nav ul li {
+    /* this is to change color of the marker */
+    color: wheat;
+    text-decoration: none;
+}
+
+
+footer > nav > ul > li> a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer h2{
+    color: green;
+}
